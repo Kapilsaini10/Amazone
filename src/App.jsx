@@ -10,7 +10,7 @@ import Orders from './pages/Order'
 import { login, logout } from './Store/authSlice'
 import { useDispatch } from 'react-redux'
 import { useEffect } from 'react'
-import authService from './appwrite/auth' // Your Appwrite auth service
+import authService from './Appwrite/auth' // Your Appwrite auth service
 import Footer from './components/Footer.jsx'
 
 
