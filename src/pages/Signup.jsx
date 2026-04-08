@@ -1,7 +1,7 @@
 import React, { use, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import authService from '../appwrite/auth' 
+import authService from '../Appwrite/auth' 
 import { login } from '../Store/authSlice'
 import { useSelector } from 'react-redux'
 import { useEffect } from 'react'

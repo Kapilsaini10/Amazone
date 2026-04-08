@@ -1,8 +1,8 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { clearCart, removeFromCart } from '../store/cartSlice'
+import { clearCart, removeFromCart } from '../Store/cartSlice'
 import { useNavigate } from 'react-router-dom'
-import service from '../appwrite/config'
+import service from '../Appwrite/config'
 
 function CheckOut() {
     const items = useSelector((state) => state.cart.items);

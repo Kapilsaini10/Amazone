@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import authService from '../appwrite/auth' // Assuming you have an auth service file
+import authService from '../Appwrite/auth' // Assuming you have an auth service file
 import { login as authLogin } from '../Store/authSlice'
 import { useSelector } from 'react-redux' 
 

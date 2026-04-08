@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { logout } from '../Store/authSlice';
-import authService from '../appwrite/auth';
+import authService from '../Appwrite/auth';
 import { 
     MagnifyingGlassIcon, 
     ShoppingCartIcon, 

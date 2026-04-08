@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import service from '../appwrite/config' // Your service file
+import service from '../Appwrite/config' // Your service file
 import OrderCard from '../components/OrderCard'
 
 function Orders() {
