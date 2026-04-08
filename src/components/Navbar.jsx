@@ -8,7 +8,7 @@ import {
     ShoppingCartIcon, 
     Bars3Icon 
 } from "@heroicons/react/24/outline";
-import { clearCart } from '../store/cartSlice';
+import { clearCart } from '../Store/cartSlice';
 
 function Navbar() {
     const dispatch = useDispatch();
