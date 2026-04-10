@@ -80,7 +80,7 @@ function CheckOut() {
 
                         <button
                             onClick={handleCheckout}
-                            className={`mt-4 p-2 rounded-sm font-bold border ${
+                            className={`mt-4 p-2 rounded-sm cursor-pointer font-bold border ${
                                 !authStatus 
                                 ? "bg-gray-300 border-gray-400 text-gray-500 cursor-not-allowed" 
                                 : "bg-yellow-400 border-yellow-500 hover:bg-yellow-500"

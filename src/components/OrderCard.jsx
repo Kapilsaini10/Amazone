@@ -23,15 +23,20 @@ function OrderCard({ order }) {
       {/* Order Items */}
       <div className="p-5 sm:p-10">
         <div className="flex space-x-6 overflow-x-auto">
+          
           {items.map((item, index) => (
             <img 
               key={index} 
               src={item.image} 
               alt="" 
               className="h-20 object-contain sm:h-32" 
+              
             />
+            
           ))}
+
         </div>
+        
       </div>
     </div>
   )

@@ -51,7 +51,7 @@ function Login() {
         </div>
         <button 
           onClick={() => navigate('/signup')}
-          className="w-full border border-gray-300 py-1 rounded-sm bg-yellow-300 hover:bg-yellow-400 text-sm shadow-sm"
+          className="w-full cursor-pointer border border-gray-300 py-1 rounded-sm bg-yellow-300 hover:bg-yellow-400 text-sm shadow-sm"
         >
           Create your Amazone account
         </button>
@@ -80,7 +80,7 @@ function Login() {
             className="w-full border border-gray-400 p-2 rounded-sm mb-4 focus:ring-1 focus:ring-yellow-500 outline-none" 
           />
 
-          <button type="submit" className="w-full bg-yellow-400 py-2 rounded-sm border border-yellow-600 hover:bg-yellow-500 font-semibold shadow-sm">
+          <button type="submit" className="w-full cursor-pointer bg-yellow-400 py-2 rounded-sm border border-yellow-600 hover:bg-yellow-500 font-semibold shadow-sm">
             Sign In
           </button>
         </form>

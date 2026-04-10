@@ -86,7 +86,7 @@ function Signup() {
                         className="w-full border border-gray-400 p-2 rounded-sm mb-4 focus:ring-1 focus:ring-yellow-500 outline-none" 
                     />
 
-                    <button type="submit" disabled={loading} className="w-full bg-yellow-400 py-2 rounded-sm border border-yellow-600 hover:bg-yellow-500 font-semibold shadow-sm text-sm">
+                    <button type="submit" disabled={loading} className="w-full cursor-pointer bg-yellow-400 py-2 rounded-sm border border-yellow-600 hover:bg-yellow-500 font-semibold shadow-sm text-sm">
                         {loading ? "Creating account..." : "Verify email"}
                     </button>
                 </form>
